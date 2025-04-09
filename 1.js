@@ -3,5 +3,10 @@ const endereco = {
         cep: "46500-000",
         cidade:"Macaúbas",
         estado:"Bahia",
+        contato:{
+            nome:"Davi",
+            telefone:"77999884504",
+            whatsapp:"+55 77999884504",
+        }
     }
-console.log(endereco.rua)
+console.log(endereco.contato.nome)
